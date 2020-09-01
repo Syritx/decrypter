@@ -10,6 +10,7 @@ word = ""
 def decrypt_password(hash):
     global word, found_hash
     max_length = 20
+    found = False
 
     while True:
 
